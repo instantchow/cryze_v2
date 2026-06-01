@@ -1,4 +1,4 @@
-FROM openjdk:18-jdk-slim AS app-builder
+FROM openjdk:18.0.2-jdk-slim-bullseye AS app-builder
 
 ENV DEBIAN_FRONTEND noninteractive
 
